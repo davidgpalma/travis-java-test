@@ -18,16 +18,16 @@ public class CalculatorTest {
 
 	
 	@Test
-	public void testAdd() {
+	//public void testAdd() {
 		Calculator calc = new Calculator();
-		assertEquals(calc.add(1, 1), a);
+		assertEquals(calc.add(1, 1), 2);
 	}
-	@Test
+	//@Test
 	public void testSub() {
 		Calculator calc = new Calculator();
 		assertEquals(calc.sub(1, 1), 0);
 	}
-	@Test
+	//@Test
 	public void testMul() {
 		Calculator calc = new Calculator();
 		assertEquals(calc.mul(3, 5), 15);
